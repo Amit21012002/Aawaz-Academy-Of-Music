@@ -1,0 +1,618 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+body {
+    background-color: grey;
+}
+
+@media screen and (min-width:800px) {
+
+
+
+   
+
+    .logo-container {
+        width: 100%;
+        height: 400px;
+
+    }
+
+    .awaaz-logo {
+        width: 100%;
+        height: 400px;
+    }
+
+    .navbar li {
+        width: 25%;
+        text-align: center;
+
+    }
+
+
+
+    .navbar-logo {
+        height: 30px;
+
+
+    }
+
+    nav ul {
+        width: 100%;
+    }
+
+    .nav-item:hover {
+        filter: drop-shadow(5px 5px 2px #507363);
+        text-decoration: underline;
+        border-left: 0.5px solid #507363;
+        border-right: 0.5px solid #507363;
+        font-weight: bold;
+    }
+
+    .card-section {
+        background-color: #507363;
+        overflow: hidden;
+        width: 100%;
+
+    }
+
+    .card-container {
+        width: 25%;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 160px;
+
+    }
+
+    .card-title {
+        text-align: center;
+        font-size: large;
+    }
+
+    .carousel-section {
+        border-top: 15px ridge Grey;
+        border-bottom: 15px ridge Grey;
+        height: 500px;
+    }
+
+    .carousel-section-img {
+        height: 500px;
+    }
+
+    .director-info {
+        width: 100%;
+        height: 300px;
+        background-color: #507363;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .director-img-section {
+        height: 100%;
+        width: 40%;
+        display: flex;
+        padding: 3%;
+
+    }
+
+
+    .director-img {
+
+        height: 90%;
+        border-radius: 100%;
+
+
+    }
+
+    .director-img:hover {
+
+        height: 100%;
+        border-radius: 100%;
+        filter: drop-shadow(10px 10px 5px grey);
+        outline: 2px #507363;
+
+
+    }
+
+    .director-details-section {
+
+        width: 60%;
+
+    }
+
+
+    .director-details {
+        font-size: 300%;
+       
+    }
+
+    .director-details:hover {
+        font-size: 350%;
+        font-weight: bold;
+        filter: drop-shadow(20px 20px 5px grey);
+        text-decoration: underline;
+    }
+
+    .about {
+        text-align: center;
+        background-color: #507363;
+        width: 100%;
+        height: 300px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .about-name {
+        font-size: 50px;
+        padding: 50px;
+        letter-spacing: 8px;
+        text-align: center;
+        text-decoration: underline;
+
+    }
+
+
+
+
+    .fees-structure {
+        background-color: #507363;
+        height: 300px;
+        padding: 3%;
+
+    }
+
+    .fees-structure h1 {
+        text-align: center;
+        font-size: 80px;
+    }
+
+    .fees-table {
+        border: 2px solid black;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .fees-table tr {
+        border: 1px solid black;
+
+    }
+
+    .fees-table th {
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+
+    }
+
+    .fees-table td {
+        border: 1px solid black;
+        font-size: 15px;
+        width: 50%;
+
+    }
+
+    .fees-table tr:hover {
+        background-color: grey;
+        color: white;
+        font-weight: bold;
+
+    }
+
+    .rating-section {
+        width: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: #507363;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .rating {
+
+        border: 1px solid black;
+        padding: 1%;
+        border-radius: 30px;
+    }
+
+    .rating:hover {
+
+        /* border: 1px solid black;
+   padding: 1%; */
+        background-color: grey;
+
+
+    }
+
+    .rating-heading{
+        font-size: 80px ;
+        text-align: center;
+        color: #a1b1aa;
+        letter-spacing: 2;
+
+    }
+
+    .gallery {
+        width: 100%;
+        height: 250;
+        background-color: #507363;
+    }
+
+
+
+    .gallery-heading {
+        width: 100%;
+
+        height: 100px;
+
+        text-align: center;
+        justify-content: center;
+        color: #a1b1aa;
+    }
+
+    .gallery h1 {
+        letter-spacing: 5px;
+        font-size: 70px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .gallery-section {
+        width: 100%;
+
+        background-color: #507363;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+    .image-section {
+        width: 16%;
+
+    }
+
+    .images {
+        border: 2px solid black;
+        height: 150px;
+        background-color: yellow;
+    }
+
+    .footer {
+        background-color: black;
+        width: 100%;
+        color: grey;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+
+    .footer-column {
+        width: 33%;
+        justify-content: center;
+
+
+    }
+
+    .footer ul {
+        list-style: none;
+    }
+
+    .footer a {
+        text-decoration: none;
+        color: grey;
+    }
+}
+
+@media (max-width: 799px) {
+    .logo-container {
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .awaaz-logo {
+        width: 100%;
+        height: 300px;
+    }
+
+    .navbar li {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .navbar-logo {
+        height: 30px;
+
+
+    }
+
+    nav ul {
+        width: 100%;
+    }
+
+    .nav-item:hover {
+        filter: drop-shadow(5px 5px 2px #507363);
+        text-decoration: underline;
+        border-left: 0.5px solid #507363;
+        border-right: 0.5px solid #507363;
+        font-weight: bold;
+    }
+
+    .card-section {
+        background-color: #507363;
+        overflow: hidden;
+        width: 100%;
+
+    }
+
+    .card-container {
+        width:100%
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 160px;
+
+    }
+
+    .card-title {
+        text-align: center;
+        font-size: medium;
+    }
+
+    .carousel-section {
+        border-top: 10px ridge Grey;
+        border-bottom: 10px ridge Grey;
+        height: 400px;
+    }
+
+    .carousel-section-img {
+        height: 400px;
+    }
+
+    .director-info {
+        width: 100%;
+        height: 280px;
+        background-color: #507363;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .director-img-section {
+        height: 100%;
+        width: 30%;
+        display: flex;
+        padding: 3%;
+
+    }
+
+
+    .director-img {
+
+        height: 90%;
+        border-radius: 100%;
+    }
+
+    .director-img:hover {
+
+        height: 100%;
+        border-radius: 100%;
+        filter: drop-shadow(10px 10px 5px grey);
+        outline: 2px #507363;
+
+
+    }
+
+    .director-details-section {
+ width: 70%;
+    }
+
+
+    .director-details {
+        font-size:150%;
+        text-align: center;
+        /* background-color: grey; */
+        border-radius : 20px;
+    }
+
+    .director-details:hover {
+        font-size: 250%;
+        font-weight: bold;
+        
+    }
+
+    .about {
+        text-align: center;
+        background-color: #507363;
+        width: 100%;
+        height: 250px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .about-name {
+        font-size: 25px;
+        padding: 10px;
+        letter-spacing: 2px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+
+
+
+    .fees-structure {
+        background-color: #507363;
+        height: 250px;
+        padding: 3%;
+
+    }
+
+    .fees-structure h1 {
+        text-align: center;
+        font-size: 200%;
+    }
+
+    .fees-table {
+        border: 2px solid black;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .fees-table tr {
+        border: 1px solid black;
+
+    }
+
+    .fees-table th {
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+
+    }
+
+    .fees-table td {
+        border: 1px solid black;
+        font-size: 15px;
+        width: 50%;
+
+    }
+
+    .fees-table tr:hover {
+        background-color: grey;
+        color: white;
+        font-weight: bold;
+
+    }
+
+    .rating-section {
+        width: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: #507363;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        
+    }
+
+.rating-reviews{
+    display: flex;
+    width: 100%;
+}
+    
+    .rating {
+
+        border: 1px solid black;
+        padding: 1%;
+        border-radius: 30px;
+        width: 100%;
+        
+    }
+
+    .rating:hover {
+
+        /* border: 1px solid black;
+   padding: 1%; */
+        background-color: grey;
+        
+    }
+
+    .rating-heading{
+        font-size: 40px ;
+        text-align: center;
+        color: #a1b1aa;
+        letter-spacing: 2;
+
+    }
+
+    .gallery {
+        width: 100%;
+        height: auto;
+        background-color: #507363;
+    }
+
+
+
+    .gallery-heading {
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        justify-content: center;
+        color: #a1b1aa;
+    }
+
+    .gallery h1 {
+        letter-spacing: 5px;
+        font-size: 50px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .gallery-section {
+        width: 100%;
+
+        background-color: #507363;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .image-section {
+        width: 100%;
+
+    }
+
+    .images {
+        border: 2px solid black;
+        height: 250px;
+        background-color: yellow;
+        width: 100%;
+    }
+
+    .footer {
+        background-color: black;
+        width: 100%;
+        color: grey;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+
+    .footer-column {
+        width: 33%;
+        justify-content: center;
+
+
+    }
+
+    .footer ul {
+        list-style: none;
+    }
+
+    .footer a {
+        text-decoration: none;
+        color: grey;
+    }
+
+}
