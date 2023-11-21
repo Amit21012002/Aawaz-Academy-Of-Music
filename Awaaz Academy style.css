@@ -385,20 +385,21 @@ body {
 
     .director-info {
         width: 100%;
-        height: 280px;
+        height: 200px;
         background-color: #507363;
         display: flex;
         justify-content: center;
         align-items: center;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
+        padding: 5%;
     }
 
     .director-img-section {
-        height: 100%;
-        width: 30%;
-        display: flex;
-        padding: 3%;
+       height: 80%;
+        width: 100%;
+       
+       
 
     }
 
@@ -420,7 +421,8 @@ body {
     }
 
     .director-details-section {
- width: 70%;
+ width: 100%;
+ 
     }
 
 
@@ -436,6 +438,7 @@ body {
         font-weight: bold;
         
     }
+
 
     .about {
         text-align: center;
